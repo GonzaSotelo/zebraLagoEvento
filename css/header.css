@@ -1,10 +1,16 @@
 header {
-    display: flex;
-    width: 100%;
-    background-color: #030a2ac9;
-    justify-content: space-between;
-    height: 20vw;
-    align-items: center;
+    
+display: flex;
+    
+width: 100%;
+    
+background-color: #030a2ac9;
+    
+justify-content: space-between;
+    
+height: 20vw;
+    
+align-items: center;
 }
 
 .header__container_logo {
@@ -25,6 +31,23 @@ header {
 }
 
 .header__container_links a {
-
 }
 
+
+#menu {
+    cursor: pointer;
+}
+
+.show-menu {
+    display: flex; /* Muestra el menú cuando tiene la clase show-menu */
+    flex-direction: column;
+    position: absolute;
+    margin: 0% 0% 0% -80%;
+    background-color: #f0ffffed;
+    height: 83vh;
+    width: 95vw;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Bona Nova SC", serif;
+    font-size: 9vw;
+}

@@ -6,3 +6,13 @@
     z-index: 10;
     position: absolute;
 }
+
+.main__container-logo h2 {
+    color: #ffffff;
+    font-family: "Great Vibes", cursive;
+    position: relative;
+    display: block;
+    z-index: 10;
+    margin-top: 77vw;
+    font-size: 11vw;
+}
