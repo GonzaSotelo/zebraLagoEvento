@@ -7,12 +7,20 @@
     position: absolute;
 }
 
-.main__container-logo h2 {
+
+
+
+.typing {
+    font-size: 24px;
+    margin-left: 10px;
+    white-space: nowrap;
+    max-width: 77vw;
+    text-wrap: wrap;
+    overflow: hidden;
     color: #ffffff;
+    z-index: 15;
+    animation: blink-caret .75s step-end infinite;
+    text-align: end;
+    margin-top: 48vw;
     font-family: "Great Vibes", cursive;
-    position: relative;
-    display: block;
-    z-index: 10;
-    margin-top: 77vw;
-    font-size: 11vw;
 }
