@@ -4,6 +4,7 @@
 .main__container-logo img {
     width: 123vw;
     z-index: 10;
+    margin-top: -23vw;
     position: absolute;
 }
 
@@ -11,7 +12,7 @@
 
 
 .typing {
-    font-size: 24px;
+    font-size: 8vw;
     margin-left: 10px;
     white-space: nowrap;
     max-width: 77vw;
@@ -21,6 +22,6 @@
     z-index: 15;
     animation: blink-caret .75s step-end infinite;
     text-align: end;
-    margin-top: 48vw;
+    margin-top: 52vw;
     font-family: "Great Vibes", cursive;
 }
